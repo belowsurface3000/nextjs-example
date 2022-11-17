@@ -11,18 +11,22 @@ https://github.com/belowsurface3000/react-redux-template
 
 ## Node.js
 https://nodejs.org/en/
+
 https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 ## React.js - a JavaScript Library
 https://reactjs.org
+
 $ npx create-react-app my-app
 
 ## Next.js - the most popular React framework
 https://nextjs.org/
+
 $ npx create-next-app@latest --typescript
 
 ## Use Sass/Scss in Next.js
 https://www.npmjs.com/package/sass
+
 $ npm i sass
 
 ## Best Youtube channel for React topics
