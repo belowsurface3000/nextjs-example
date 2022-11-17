@@ -58,7 +58,7 @@ function AgeGuesser() {
       {
         !showSpinner && Object.entries(fetchResult).length != 0 &&
         <>
-          <h1>Here are your results:</h1>
+          <h2>Here are your results:</h2>
           <div className="result-container">
             <p>You requested the name <b>{fetchResult.name}</b></p>
             <p>This name was requested <b>{fetchResult.count}</b> times</p>
