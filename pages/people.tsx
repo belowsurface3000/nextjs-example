@@ -15,7 +15,7 @@ function People() {
     getPerson();
   }
   
-  // API fetch and updating the array in redux
+  // API fetch and updating the people array in redux
   const getPerson = () => {    
     fetch("https://randomuser.me/api/", {
       method: 'GET',
