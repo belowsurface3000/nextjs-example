@@ -66,7 +66,6 @@ function AgeGuesser() {
           </div>
         </>
       }
-
     </main>
   )
 }

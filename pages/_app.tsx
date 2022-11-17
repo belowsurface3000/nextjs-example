@@ -13,6 +13,7 @@ const myStore = createStore(allReducers, composeWithDevTools());
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
+
     <Provider store={myStore}>
       <Head>
         <title>Create Next App</title>
@@ -26,5 +27,6 @@ export default function App({ Component, pageProps }: AppProps) {
 
       <Footer />
     </Provider>
+    
   )
 }
