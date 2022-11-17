@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from 'react-redux';
 import { updatePeople } from "../store/actions/peopleActions";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 function People() {
 
